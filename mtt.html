@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WCA Travel - About (Template)</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+      }
+      header {
+        background: #004b8d;
+        color: #fff;
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav a {
+        color: white;
+        margin-left: 1rem;
+        text-decoration: none;
+      }
+      .hero {
+        background: url("https://via.placeholder.com/1400x400") no-repeat center
+          center/cover;
+        color: white;
+        text-align: center;
+        padding: 6rem 2rem;
+      }
+      .hero h1 {
+        font-size: 3rem;
+      }
+      .content {
+        max-width: 1100px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      .section {
+        margin-bottom: 2rem;
+      }
+      .section h2 {
+        color: #004b8d;
+      }
+      .team {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+      }
+      .member {
+        flex: 1 1 250px;
+        text-align: center;
+      }
+      .member img {
+        width: 100%;
+        max-width: 200px;
+        border-radius: 50%;
+      }
+      footer {
+        background: #222;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">WCA Travel</div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>About Us</h1>
+      <p>We help you explore the world with ease.</p>
+    </section>
+
+    <section class="content">
+      <div class="section">
+        <h2>Who We Are</h2>
+        <p>
+          WCA Travel is a trusted name in the travel industry, offering services
+          to help individuals and groups enjoy the experience of travel with
+          less hassle.
+        </p>
+      </div>
+      <div class="section">
+        <h2>Our Mission</h2>
+        <p>
+          To provide affordable, accessible, and reliable travel solutions
+          around the globe.
+        </p>
+      </div>
+      <div class="section">
+        <h2>Meet Our Team</h2>
+        <div class="team">
+          <div class="member">
+            <img src="https://via.placeholder.com/200" alt="Team Member 1" />
+            <h3>John Doe</h3>
+            <p>Founder & CEO</p>
+          </div>
+          <div class="member">
+            <img src="https://via.placeholder.com/200" alt="Team Member 2" />
+            <h3>Jane Smith</h3>
+            <p>Operations Manager</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 WCA Travel. All rights reserved.</p>
+    </footer>
+
+    <script>
+      // Add interactivity here if needed
+      document.querySelectorAll("nav a").forEach((link) => {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          alert("This is a static template. Navigation is not functional.");
+        });
+      });
+    </script>
+  </body>
+</html>
